@@ -1,50 +1,172 @@
 :root{
     --logo-color:#95E1D3;
-    --accent-color: #F38181;
-    --title-color:#333;
+    --title-color:#333333;
     --text-color:#B6B6B6;
-    --text-button-color:#FFF;
+    --hover-color:#F38181;
 }
 
-*{
-    box-sizing: border-box;
-}
-ul{
-    list-style: none;
-}
+ul{list-style: none;}
 
-a{
-    text-decoration: none;
-}
+a{text-decoration: none;}
 
 body{
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    width: 1200px;
+}
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
     border: 2px solid red;
 }
 
+/*     
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+     */
+        
+.header{
+    padding-top: 17px;
+}
+    
 .logo{
+    color: var(--logo-color);
+    font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
-    color: var(--logo-color);
-}
+}  
 
-.navigation-link{
+.navigation-item{
+    color: var(--logo-color);
+    font-family: Montserrat;
     font-size: 14px;
-    color: var(--logo-color);
-    text-transform: uppercase;
+    font-weight: 400;
 }
 
-.navigation-link:hover,
-.navigation-link:focus{
-    color: var(--accent-color);
+.navigation-item:hover,
+.navigation-item:focus{
+    color: var(--hover-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .slogon{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 24px;
     color: var(--title-color);
-    margin-bottom: 20px;
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.title{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--hover-color);
+    margin-bottom: 60px;
+}
+
+.card-title{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-text{
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;   
+}
+
+.our-team-text{
+    color: var(--text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.work{
+    padding-top: 68px;
+}
+
+.worl-title{
+    margin-bottom: 20px;
+}
+
+.work-img{
+    margin-right: 20px;
+}
+
+.worker-name{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.our-team{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.profesion{
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;   
+}
+
+.foot-text{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Laaqiq{
+    color: var(--hover-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-containe{
+    border-top: 1px solid var(--text-color);
+}
+
+.foot-btn{
+    background-color: var(--logo-color);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px 38px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+
+.team-img{
+    margin-bottom: 30px;
 }
